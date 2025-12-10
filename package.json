@@ -1,0 +1,18 @@
+{
+  "name": "cors-yelbolt-worker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "start:8989": "wrangler dev --port 8989 --inspector-port 9229",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251210.0",
+    "prettier": "^3.5.3",
+    "wrangler": "^4.29.1"
+  }
+}
